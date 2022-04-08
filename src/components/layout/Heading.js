@@ -7,8 +7,8 @@ const Heading = () => {
   return (
     <div className="flex justify-between items-center p-5 mt-5 text-slate-700 dark:text-white">
       <div className="flex items-center">
-        <h1 className="font-bold text-2xl mr-2 ">Budget Calculator</h1>
-        <GiCash className="text-3xl" />
+        <h1 className="font-bold text-2xl mr-2">Budget Calculator</h1>
+        <GiCash className="text-3xl hidden md:flex" />
       </div>
 
       <button className="flex items-center text-xl" onClick={() => setTheme(mode)}>
